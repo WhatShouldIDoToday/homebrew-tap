@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v7
+      - name: Tap this checkout
+        run: |
+          mkdir -p "$(dirname "$(brew --repository WhatShouldIDoToday/tap)")"
+          ln -s "$GITHUB_WORKSPACE" "$(brew --repository WhatShouldIDoToday/tap)"
+      - name: Style
+        run: brew style WhatShouldIDoToday/tap
+      - name: Audit
+        run: brew audit --strict --tap WhatShouldIDoToday/tap
