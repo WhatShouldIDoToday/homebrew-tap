@@ -17,6 +17,8 @@ jobs:
         run: |
           mkdir -p "$(dirname "$(brew --repository WhatShouldIDoToday/tap)")"
           ln -s "$GITHUB_WORKSPACE" "$(brew --repository WhatShouldIDoToday/tap)"
+      - name: Trust the tap
+        run: brew trust WhatShouldIDoToday/tap
       - name: Style
         run: brew style WhatShouldIDoToday/tap
       - name: Audit
