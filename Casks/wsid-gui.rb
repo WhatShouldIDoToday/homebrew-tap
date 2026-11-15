@@ -1,13 +1,11 @@
 cask "wsid-gui" do
-  version "0.2.0"
-  sha256 "acf14dda747af5237366ac1eec2f4da18c9879377137b33ee1c42ce4cfea0d0e"
+  version "0.2.1"
+  sha256 "f465d0ba2c54922a545fa65bdc521b8d8a476fabe8580fa7151caa9e576714bb"
 
-  url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.0/WSID_0.2.0_universal.dmg"
+  url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.1/WSID_0.2.1_universal.dmg"
   name "WSID"
   desc "Offline task manager that ranks what to do next"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
-
-  depends_on macos: ">= :high_sierra"
 
   app "WSID.app"
 
