@@ -1,8 +1,8 @@
 cask "wsid-gui@beta" do
-  version "0.1.1-beta.4"
-  sha256 "37cdcbc3399d86eb2f13efd0fd48dc29298cde596e3220e3fd6ff28bf63b6449"
+  version "0.1.1-beta.11"
+  sha256 "e1d52cb4ee1de95e654f71b68a8a9aef7af087040200802b80254f6ffe4d98da"
 
-  url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.1.1-beta.4/WSID.Beta_0.1.1-beta.4_universal.dmg"
+  url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.1.1-beta.11/WSID.Beta_0.1.1-beta.11_universal.dmg"
   name "WSID Beta"
   desc "Beta channel of the WSID task manager (separate data)"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
