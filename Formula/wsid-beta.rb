@@ -1,28 +1,28 @@
 class WsidBeta < Formula
   desc "Offline task manager that ranks what to do next (beta channel, separate data)"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
-  version "0.2.2-beta.21"
+  version "0.2.3-beta.22"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.2-beta.21/wsid-aarch64-apple-darwin-v0.2.2-beta.21.tar.gz"
-      sha256 "3cabb271c5591e08f90c8e1d1792b2962a2769fc923c266323cb0cbf5b3f908d"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.3-beta.22/wsid-aarch64-apple-darwin-v0.2.3-beta.22.tar.gz"
+      sha256 "51dc0db0f0b72815ef99a605ab0c5481bd24c679f5b8aa2d58c23f83bc7c6219"
     end
     on_intel do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.2-beta.21/wsid-x86_64-apple-darwin-v0.2.2-beta.21.tar.gz"
-      sha256 "a280fb47099e9b15da2dcf5dd0797bb9d89290b717f6dfb8f1775cfefbbabb90"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.3-beta.22/wsid-x86_64-apple-darwin-v0.2.3-beta.22.tar.gz"
+      sha256 "d21a1023ab770256e9389cea7325a35a03ef261da63ee5e8be72aa24e0e4a78a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.2-beta.21/wsid-aarch64-unknown-linux-musl-v0.2.2-beta.21.tar.gz"
-      sha256 "8648fbc80fabf6eb8e65e4e0d655133d900f3061307cc3c4bed65ba114550e89"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.3-beta.22/wsid-aarch64-unknown-linux-musl-v0.2.3-beta.22.tar.gz"
+      sha256 "a44fa54e14d19183c82c803804d181d6b1fde6dee4a2ae42ca9050f7e489baae"
     end
     on_intel do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.2-beta.21/wsid-x86_64-unknown-linux-musl-v0.2.2-beta.21.tar.gz"
-      sha256 "fa9584c93f8a690121ccc6210347bd05970f094e554245b9661998176f4a542c"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/beta-v0.2.3-beta.22/wsid-x86_64-unknown-linux-musl-v0.2.3-beta.22.tar.gz"
+      sha256 "7e2a16cfb112652002acd81a3ea237bf59e9d2cfedbd337cdf983cb35f86fc21"
     end
   end
 
