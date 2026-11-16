@@ -1,28 +1,28 @@
 class Wsid < Formula
   desc "Offline task manager that ranks what to do next (terminal, CLI, and MCP server)"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
-  version "0.2.1"
+  version "0.2.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.1/wsid-aarch64-apple-darwin-v0.2.1.tar.gz"
-      sha256 "6a010642f676dce04afe4651d18707efc6296700a36b1527bbc191aada8c1a42"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.2/wsid-aarch64-apple-darwin-v0.2.2.tar.gz"
+      sha256 "01ef6c39980f75bca798df50fdc2387f75eaba8fa0b97bff9425955e56595344"
     end
     on_intel do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.1/wsid-x86_64-apple-darwin-v0.2.1.tar.gz"
-      sha256 "17faff58317de558a115f3dc4610e961531970356a839d01043c679d23772f31"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.2/wsid-x86_64-apple-darwin-v0.2.2.tar.gz"
+      sha256 "91f3cb6056cf10fb6805f8afab49f74c0723b0f9ba6b96cfe54dcfd0ebafd112"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.1/wsid-aarch64-unknown-linux-musl-v0.2.1.tar.gz"
-      sha256 "6df5f985abb0f4c25b3b24c2f11b5df5bcbb1a7dfb28b3e4a05c94b0232a497b"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.2/wsid-aarch64-unknown-linux-musl-v0.2.2.tar.gz"
+      sha256 "f219b0f15eefe53ab86f08be8d0c7eedfb18d69e49cfb296e6d7dd4e3126947e"
     end
     on_intel do
-      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.1/wsid-x86_64-unknown-linux-musl-v0.2.1.tar.gz"
-      sha256 "22d75b4fc5a75c609db3a9efef02f4d2474315b53cbccd23028ca7356064896d"
+      url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.2/wsid-x86_64-unknown-linux-musl-v0.2.2.tar.gz"
+      sha256 "ca79f7b75fd69d7414fc1a8f5837eb457b7e9ffa0c72cbd8eee2ae6c1006f4f0"
     end
   end
 
