@@ -1,7 +1,6 @@
 class WsidBeta < Formula
   desc "Offline task manager that ranks what to do next (beta channel, separate data)"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
-  version "0.2.3-beta.22"
   license "Apache-2.0"
 
   on_macos do

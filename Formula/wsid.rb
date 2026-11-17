@@ -1,7 +1,6 @@
 class Wsid < Formula
   desc "Offline task manager that ranks what to do next (terminal, CLI, and MCP server)"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
-  version "0.2.2"
   license "Apache-2.0"
 
   on_macos do

@@ -2,7 +2,7 @@ cask "wsid-gui" do
   version "0.2.2"
   sha256 "e2acef7d8526ad13ac66e148f3a8ef2f05eda66bc5a9f5289a678d377837bf9a"
 
-  url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v0.2.2/WSID_0.2.2_universal.dmg"
+  url "https://github.com/WhatShouldIDoToday/WSID/releases/download/v#{version}/WSID_#{version}_universal.dmg"
   name "WSID"
   desc "Offline task manager that ranks what to do next"
   homepage "https://github.com/WhatShouldIDoToday/WSID"
